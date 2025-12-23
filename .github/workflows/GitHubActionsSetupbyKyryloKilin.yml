@@ -22,4 +22,4 @@ jobs:
           echo "Branch: ${{ github.head_ref }}"
 
       - name: Show triggering event
-      - run: echo "The job was triggered by a ${{ github.event_name }} event"
+        run: echo "The job was triggered by a ${{ github.event_name }} event"
